@@ -1,0 +1,27 @@
+{
+  "name": "data-charts",
+  "version": "1.0.0",
+  "description": "数据仪表板 - 猪价 & 水泥价格 & 能繁母猪数量",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.0",
+    "@rsbuild/plugin-react": "^1.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  }
+}

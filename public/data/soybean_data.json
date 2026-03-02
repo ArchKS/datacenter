@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2024-Q1",
+    "usProduction": 11.50,
+    "usInventory": 3.20,
+    "brazilProduction": 1.55,
+    "argentinaProduction": 0.50,
+    "chinaOilMillInventory": 85.00
+  },
+  {
+    "date": "2024-Q2",
+    "usProduction": 10.80,
+    "usInventory": 3.45,
+    "brazilProduction": 1.62,
+    "argentinaProduction": 0.48,
+    "chinaOilMillInventory": 92.00
+  },
+  {
+    "date": "2024-Q3",
+    "usProduction": 10.20,
+    "usInventory": 3.50,
+    "brazilProduction": 1.68,
+    "argentinaProduction": 0.46,
+    "chinaOilMillInventory": 88.00
+  },
+  {
+    "date": "2024-Q4",
+    "usProduction": 10.94,
+    "usInventory": 3.16,
+    "brazilProduction": 1.70,
+    "argentinaProduction": 0.49,
+    "chinaOilMillInventory": 95.00
+  },
+  {
+    "date": "2025-Q1",
+    "usProduction": 10.30,
+    "usInventory": 3.25,
+    "brazilProduction": 1.72,
+    "argentinaProduction": 0.47,
+    "chinaOilMillInventory": 102.00
+  },
+  {
+    "date": "2025-Q2",
+    "usProduction": 10.60,
+    "usInventory": 2.95,
+    "brazilProduction": 1.74,
+    "argentinaProduction": 0.48,
+    "chinaOilMillInventory": 98.00
+  },
+  {
+    "date": "2025-Q3",
+    "usProduction": 10.45,
+    "usInventory": 2.90,
+    "brazilProduction": 1.75,
+    "argentinaProduction": 0.485,
+    "chinaOilMillInventory": 105.00
+  },
+  {
+    "date": "2025-Q4",
+    "usProduction": 10.63,
+    "usInventory": 2.90,
+    "brazilProduction": 1.77,
+    "argentinaProduction": 0.49,
+    "chinaOilMillInventory": 110.00
+  },
+  {
+    "date": "2026-Q1",
+    "usProduction": 10.20,
+    "usInventory": 3.05,
+    "brazilProduction": 1.78,
+    "argentinaProduction": 0.50,
+    "chinaOilMillInventory": 108.00
+  }
+]
