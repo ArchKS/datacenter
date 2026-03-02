@@ -26,7 +26,7 @@ function App() {
         <ChartCard title="能繁母猪存栏量">
           <SowChart />
         </ChartCard>
-        <ChartCard title="豆粕市场供需数据" fullWidth>
+        <ChartCard title="豆粕市场供需数据(假)" fullWidth>
           <SoybeanChart />
         </ChartCard>
 
