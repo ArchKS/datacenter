@@ -12,7 +12,7 @@ import './styles/global.css';
 function App() {
   return (
     <>
-      <Header title="数据仪表板" subtitle="猪价 · 水泥 · 能繁母猪 · 传奇生物 · 豆粕" />
+      <Header title="数据仪表板" subtitle="" />
       <Dashboard>
         <ChartCard title="生猪价格走势">
           <PigPrice />
