@@ -1,0 +1,376 @@
+[
+  {
+    "date": "09-18",
+    "totalInventory": 137531,
+    "inventory": {
+      "upstream": 34456,
+      "downstream": 59495,
+      "other": 43580
+    },
+    "destocking": null,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "09-25",
+    "totalInventory": 136825,
+    "inventory": {
+      "upstream": 33492,
+      "downstream": 60893,
+      "other": 42440
+    },
+    "destocking": 706,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "10-10",
+    "totalInventory": 134801,
+    "inventory": {
+      "upstream": 34747,
+      "downstream": 59765,
+      "other": 40290
+    },
+    "destocking": 2024,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "10-17",
+    "totalInventory": 132658,
+    "inventory": {
+      "upstream": 34283,
+      "downstream": 57735,
+      "other": 40640
+    },
+    "destocking": 2143,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "10-24",
+    "totalInventory": 130366,
+    "inventory": {
+      "upstream": 33681,
+      "downstream": 55275,
+      "other": 41410
+    },
+    "destocking": 2292,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "10-31",
+    "totalInventory": 127358,
+    "inventory": {
+      "upstream": 32051,
+      "downstream": 53288,
+      "other": 42020
+    },
+    "destocking": 3008,
+    "totalProduction": 21080,
+    "production": {
+      "lithiumSpodumene": 13124,
+      "lithiumLepidolite": 3011,
+      "saltLake": 3319,
+      "recycling": 2080
+    }
+  },
+  {
+    "date": "11-07",
+    "totalInventory": 123953,
+    "inventory": {
+      "upstream": 30715,
+      "downstream": 52008,
+      "other": 41230
+    },
+    "destocking": 3405,
+    "totalProduction": 21534,
+    "production": {
+      "lithiumSpodumene": 13354,
+      "lithiumLepidolite": 3081,
+      "saltLake": 3555,
+      "recycling": 2145
+    }
+  },
+  {
+    "date": "11-14",
+    "totalInventory": 120472,
+    "inventory": {
+      "upstream": 28270,
+      "downstream": 48772,
+      "other": 43430
+    },
+    "destocking": 3481,
+    "totalProduction": 21545,
+    "production": {
+      "lithiumSpodumene": 12904,
+      "lithiumLepidolite": 2941,
+      "saltLake": 3555,
+      "recycling": 2145
+    }
+  },
+  {
+    "date": "11-21",
+    "totalInventory": 118420,
+    "inventory": {
+      "upstream": 26104,
+      "downstream": 44436,
+      "other": 47880
+    },
+    "destocking": 2052,
+    "totalProduction": 22130,
+    "production": {
+      "lithiumSpodumene": 13344,
+      "lithiumLepidolite": 2971,
+      "saltLake": 3635,
+      "recycling": 2180
+    }
+  },
+  {
+    "date": "11-28",
+    "totalInventory": 115968,
+    "inventory": {
+      "upstream": 24324,
+      "downstream": 41984,
+      "other": 49660
+    },
+    "destocking": 2452,
+    "totalProduction": 21865,
+    "production": {
+      "lithiumSpodumene": 13364,
+      "lithiumLepidolite": 3021,
+      "saltLake": 3225,
+      "recycling": 2245
+    }
+  },
+  {
+    "date": "12-05",
+    "totalInventory": 113602,
+    "inventory": {
+      "upstream": 20767,
+      "downstream": 43695,
+      "other": 49140
+    },
+    "destocking": 2336,
+    "totalProduction": 21939,
+    "production": {
+      "lithiumSpodumene": 13484,
+      "lithiumLepidolite": 3076,
+      "saltLake": 3090,
+      "recycling": 2289
+    }
+  },
+  {
+    "date": "12-12",
+    "totalInventory": 111469,
+    "inventory": {
+      "upstream": 19161,
+      "downstream": 42738,
+      "other": 49570
+    },
+    "destocking": 2133,
+    "totalProduction": 21998,
+    "production": {
+      "lithiumSpodumene": 13744,
+      "lithiumLepidolite": 2876,
+      "saltLake": 3075,
+      "recycling": 2303
+    }
+  },
+  {
+    "date": "12-19",
+    "totalInventory": 110000,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 1469,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "12-26",
+    "totalInventory": 108000,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 2000,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "01-02",
+    "totalInventory": 108247,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 337,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "01-16",
+    "totalInventory": 109700,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 263,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "01-23",
+    "totalInventory": 108900,
+    "inventory": {
+      "upstream": 19800,
+      "downstream": 37600,
+      "other": 51500
+    },
+    "destocking": 783,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "01-29",
+    "totalInventory": 107500,
+    "inventory": {
+      "upstream": 19000,
+      "downstream": 40600,
+      "other": 47900
+    },
+    "destocking": 1414,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "02-05",
+    "totalInventory": 105200,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 2300,
+    "totalProduction": 20744,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "02-12",
+    "totalInventory": 102700,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 2531,
+    "totalProduction": 20184,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "02-19",
+    "totalInventory": 101200,
+    "inventory": {
+      "upstream": null,
+      "downstream": null,
+      "other": null
+    },
+    "destocking": 1500,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "02-26",
+    "totalInventory": 99000,
+    "inventory": {
+      "upstream": 18000,
+      "downstream": 43000,
+      "other": 38000
+    },
+    "destocking": 3170,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  }
+]
