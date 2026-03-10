@@ -225,5 +225,5 @@ export const LegendChart: React.FC = () => {
     ],
   };
 
-  return <ReactECharts option={option} style={{ height: '100%', width: '100%' }} />;
+  return <ReactECharts option={option} style={{ height: '420px', width: '100%' }} />;
 };

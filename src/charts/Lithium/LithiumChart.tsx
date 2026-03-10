@@ -21,14 +21,12 @@ interface LithiumDataPoint {
   };
 }
 
-type TabType = 'inventory' | 'structure' | 'production' | 'destocking' | 'totalProduction';
+type TabType = 'inventory' | 'structure' | 'destocking';
 
 const tabs = [
   { id: 'inventory' as TabType, label: '总库存趋势' },
   { id: 'structure' as TabType, label: '库存结构' },
-  { id: 'production' as TabType, label: '周度产能' },
   { id: 'destocking' as TabType, label: '去库量对比' },
-  { id: 'totalProduction' as TabType, label: '产能总量' },
 ];
 
 export const LithiumChart: React.FC = () => {
@@ -110,14 +108,18 @@ export const LithiumChart: React.FC = () => {
 
   // Chart 2: Inventory Structure (stacked bar + growth rate lines)
   const structureOption = useMemo(() => {
-    const dates = data.map(d => d.date);
-    const upstream = data.map(d => d.inventory.upstream);
-    const downstream = data.map(d => d.inventory.downstream);
-    const other = data.map(d => d.inventory.other);
+    const structureData = data.filter(
+      d => d.inventory.upstream !== null && d.inventory.downstream !== null && d.inventory.other !== null
+    );
 
-    const upstreamGrowth = data.map((d, i) => calculateGrowthRate(d.inventory.upstream, data[i - 1]?.inventory.upstream));
-    const downstreamGrowth = data.map((d, i) => calculateGrowthRate(d.inventory.downstream, data[i - 1]?.inventory.downstream));
-    const otherGrowth = data.map((d, i) => calculateGrowthRate(d.inventory.other, data[i - 1]?.inventory.other));
+    const dates = structureData.map(d => d.date);
+    const upstream = structureData.map(d => d.inventory.upstream);
+    const downstream = structureData.map(d => d.inventory.downstream);
+    const other = structureData.map(d => d.inventory.other);
+
+    const upstreamGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.upstream, structureData[i - 1]?.inventory.upstream));
+    const downstreamGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.downstream, structureData[i - 1]?.inventory.downstream));
+    const otherGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.other, structureData[i - 1]?.inventory.other));
 
     return {
       tooltip: {
@@ -541,9 +543,7 @@ export const LithiumChart: React.FC = () => {
     switch (activeTab) {
       case 'inventory': return inventoryOption;
       case 'structure': return structureOption;
-      case 'production': return productionOption;
       case 'destocking': return destockingOption;
-      case 'totalProduction': return totalProductionOption;
       default: return inventoryOption;
     }
   };
@@ -568,11 +568,11 @@ export const LithiumChart: React.FC = () => {
       </div>
 
       {/* Chart Container */}
-      <div className="flex-1 min-h-0">
+      <div className="w-full min-h-[420px]">
         <ReactECharts
           key={activeTab}
           option={getOption()}
-          style={{ height: '100%', width: '100%' }}
+          style={{ height: '420px', width: '100%' }}
           opts={{ renderer: 'canvas' }}
         />
       </div>

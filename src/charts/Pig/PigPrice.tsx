@@ -1,18 +1,21 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 export const PigPrice: React.FC = () => {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-
   return (
-    <div className="w-full h-full">
-      <iframe
-        ref={iframeRef}
-        className="absolute top-0 left-0 w-full h-full border-none"
-        style={{ zoom: 0.6, marginTop: '-200px', marginLeft: '-250px', width: 'calc(100% + 300px)', height: 'calc(100% + 800px)' }}
-        src="https://zhujia.zhuwang.com.cn/"
-        title="生猪价格走势"
-        sandbox="allow-same-origin allow-scripts allow-forms"
-      />
+    <div className="w-full h-[550px] overflow-auto bg-[#f8fafc] rounded-2xl flex justify-center">
+      <a
+        href="https://zhujia.zhuwang.com.cn/"
+        target="_blank"
+        rel="noreferrer"
+        className="block"
+        title="打开猪价网站"
+      >
+        <img
+          src="/images/pig-price.jpg"
+          alt="生猪价格走势截图"
+          className="block w-auto h-auto max-w-[80vw] rounded-xl shadow-sm cursor-pointer"
+        />
+      </a>
     </div>
   );
 };
