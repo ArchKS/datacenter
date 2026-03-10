@@ -11,15 +11,15 @@ interface SectionTocProps {
 
 export const SectionToc: React.FC<SectionTocProps> = ({ items }) => {
   return (
-    <aside className="hidden xl:block fixed right-6 top-28 w-56 z-20">
-      <div className="bg-white/90 backdrop-blur rounded-2xl shadow-sm border border-[#e5e5e5] p-4">
-        <div className="text-sm font-semibold text-[#1d1d1f] mb-3">页面目录</div>
-        <nav className="flex flex-col gap-2">
+    <aside className="hidden xl:block xl:col-span-1 order-last self-start sticky top-6 h-fit">
+      <div className="glass-card rounded-[1.5rem] p-3 min-h-[80vh]">
+        <div className="text-[12px] font-semibold tracking-[0.08em] uppercase text-[#94a3b8] mb-3 px-2">目录</div>
+        <nav className="flex flex-col gap-1.5">
           {items.map((item) => (
             <a
               key={item.id}
               href={`#${item.id}`}
-              className="text-sm text-[#3a3a3c] hover:text-[#0071e3] transition-colors"
+              className="text-sm text-[#334155] hover:text-[#2563eb] hover:bg-[#2563eb]/6 transition-colors rounded-xl px-2 py-2 leading-5"
             >
               {item.title}
             </a>
