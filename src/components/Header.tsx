@@ -75,8 +75,8 @@ export const Header: React.FC<HeaderProps> = ({ title, recentUpdates = [], onCal
           <button
             onClick={onCalendarClick}
             className="shrink-0 h-12 w-12 rounded-2xl bg-white text-[#2563eb] border border-white/80 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center"
-            aria-label="打开日历"
-            title="查看数据日历"
+            aria-label="打开持仓关注重点"
+            title="查看持仓关注重点"
           >
             <CalendarIcon className="h-5 w-5" />
           </button>
