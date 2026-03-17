@@ -392,13 +392,13 @@
   },
   {
     "date": "03-12",
-    "totalInventory": 98959,
+    "totalInventory": 98958,
     "inventory": {
-      "upstream": null,
-      "downstream": null,
-      "other": null
+      "upstream": 16291,
+      "downstream": 45647,
+      "other": 37020
     },
-    "destocking": 414,
+    "destocking": 415,
     "totalProduction": null,
     "production": {
       "lithiumSpodumene": null,
