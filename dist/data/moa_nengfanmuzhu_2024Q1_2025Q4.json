@@ -1,0 +1,65 @@
+{
+  "dataset": "农业农村部生猪专题-季度数据-能繁母猪存栏",
+  "unit": "万头",
+  "period": "2024Q1~2025Q4",
+  "source_root": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/",
+  "updated_at": "2026-03-10 11:37:47",
+  "records": [
+    {
+      "quarter": "2024Q1",
+      "value_wan_tou": 3992,
+      "qoq": "-3.6%",
+      "yoy": "-7.3%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2024/202403/"
+    },
+    {
+      "quarter": "2024Q2",
+      "value_wan_tou": 4038,
+      "qoq": "1.1%",
+      "yoy": "-6.0%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2024/202406/"
+    },
+    {
+      "quarter": "2024Q3",
+      "value_wan_tou": 4062,
+      "qoq": "0.6%",
+      "yoy": "-4.2%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2024/202409/"
+    },
+    {
+      "quarter": "2024Q4",
+      "value_wan_tou": 4078,
+      "qoq": "0.4%",
+      "yoy": "-1.6%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2024/202412/"
+    },
+    {
+      "quarter": "2025Q1",
+      "value_wan_tou": 4039,
+      "qoq": "-1.0%",
+      "yoy": "1.2%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2025/202503/"
+    },
+    {
+      "quarter": "2025Q2",
+      "value_wan_tou": 4043,
+      "qoq": "0.1%",
+      "yoy": "0.1%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2025/202506/"
+    },
+    {
+      "quarter": "2025Q3",
+      "value_wan_tou": 4035,
+      "qoq": "-0.2%",
+      "yoy": "-0.7%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2025/202509/"
+    },
+    {
+      "quarter": "2025Q4",
+      "value_wan_tou": 3961,
+      "qoq": "-1.8%",
+      "yoy": "-2.9%",
+      "source_url": "https://www.moa.gov.cn/ztzl/szcpxx/jdsj/2025/202512/"
+    }
+  ]
+}

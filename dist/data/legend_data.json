@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2024-11-25",
+    "treated": 4000,
+    "dailyGrowth": null
+  },
+  {
+    "date": "2025-01-14",
+    "treated": 4500,
+    "dailyGrowth": 10.0
+  },
+  {
+    "date": "2025-03-05",
+    "treated": 5000,
+    "dailyGrowth": 10.0
+  },
+  {
+    "date": "2025-05-13",
+    "treated": 6000,
+    "dailyGrowth": 14.5
+  },
+  {
+    "date": "2025-06-03",
+    "treated": 6500,
+    "dailyGrowth": 23.8
+  },
+  {
+    "date": "2025-08-05",
+    "treated": 7000,
+    "dailyGrowth": 7.9
+  },
+  {
+    "date": "2025-08-11",
+    "treated": 7500,
+    "dailyGrowth": 83.3
+  },
+  {
+    "date": "2025-09-25",
+    "treated": 8000,
+    "dailyGrowth": 11.1
+  },
+  {
+    "date": "2025-12-05",
+    "treated": 9500,
+    "dailyGrowth": 21.1
+  }
+]

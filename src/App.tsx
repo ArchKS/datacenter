@@ -28,7 +28,7 @@ function App() {
     { id: 'legend-chart', title: '传奇生物累计治疗人数', updatedAt: '2026-03-10', fullWidth: true, minHeight: '500px' },
     { id: 'sow-chart', title: '能繁母猪存栏量', updatedAt: '2026-03-10', updateSchedule: '1/4/7/10月工作日 10:30', fullWidth: true, minHeight: '500px' },
     { id: 'lithium-chart', title: '锂矿库存分析', updatedAt: '2026-03-20', updateSchedule: '每周五 20:00', fullWidth: true, minHeight: '500px' },
-    { id: 'pig-price', title: '生猪价格走势', updatedAt: '2026-03-10', updateSchedule: '每周一 10:00', fullWidth: true },
+    { id: 'pig-price', title: '牧原成本 vs 全国猪价（月均）', updatedAt: '2026-03-27', updateSchedule: '手动更新', fullWidth: true },
   ];
 
   const tocItems = cards.map(({ id, title }) => ({ id, title }));
