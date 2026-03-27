@@ -5,6 +5,7 @@ interface HeaderProps {
   subtitle: string;
   recentUpdates?: string[];
   onCalendarClick?: () => void;
+  onHoldvisClick?: () => void;
 }
 
 const CalendarIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -24,6 +25,26 @@ const CalendarIcon: React.FC<{ className?: string }> = ({ className }) => (
     <line x1="16" y1="2" x2="16" y2="6" />
     <line x1="8" y1="2" x2="8" y2="6" />
     <line x1="3" y1="10" x2="21" y2="10" />
+  </svg>
+);
+
+const GridIcon: React.FC<{ className?: string }> = ({ className }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <rect x="3" y="3" width="7" height="7" rx="1.5" />
+    <rect x="14" y="3" width="7" height="7" rx="1.5" />
+    <rect x="3" y="14" width="7" height="7" rx="1.5" />
+    <rect x="14" y="14" width="7" height="7" rx="1.5" />
   </svg>
 );
 
@@ -47,7 +68,7 @@ const CloseIcon: React.FC<{ className?: string }> = ({ className }) => (
 
 export { CloseIcon };
 
-export const Header: React.FC<HeaderProps> = ({ title, recentUpdates = [], onCalendarClick }) => {
+export const Header: React.FC<HeaderProps> = ({ title, recentUpdates = [], onCalendarClick, onHoldvisClick }) => {
   return (
     <header className="relative px-6 pt-10 pb-10 md:pt-14 md:pb-14">
       <div className="max-w-[1600px] mx-auto">
@@ -72,14 +93,24 @@ export const Header: React.FC<HeaderProps> = ({ title, recentUpdates = [], onCal
               ))}
             </div>
           </div>
-          <button
-            onClick={onCalendarClick}
-            className="shrink-0 h-12 w-12 rounded-2xl bg-white text-[#2563eb] border border-white/80 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center"
-            aria-label="打开持仓关注重点"
-            title="查看持仓关注重点"
-          >
-            <CalendarIcon className="h-5 w-5" />
-          </button>
+          <div className="shrink-0 flex items-center gap-3">
+            <button
+              onClick={onHoldvisClick}
+              className="h-12 w-12 rounded-2xl bg-white text-[#7c3aed] border border-white/80 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center"
+              aria-label="打开 HoldVis"
+              title="打开 HoldVis"
+            >
+              <GridIcon className="h-5 w-5" />
+            </button>
+            <button
+              onClick={onCalendarClick}
+              className="h-12 w-12 rounded-2xl bg-white text-[#2563eb] border border-white/80 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center"
+              aria-label="打开持仓关注重点"
+              title="查看持仓关注重点"
+            >
+              <CalendarIcon className="h-5 w-5" />
+            </button>
+          </div>
         </div>
       </div>
     </header>

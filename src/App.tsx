@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 import { ChartCard } from './components/ChartCard';
 import { Calendar } from './components/Calendar';
+import { HoldvisModal } from './components/HoldvisModal';
 import { SectionToc } from './components/SectionToc';
 import { PigPrice } from './charts/Pig/PigPrice';
 import { CementPrice } from './charts/Cement/CementPrice';
@@ -22,6 +23,7 @@ interface CardMeta {
 
 function App() {
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [isHoldvisOpen, setIsHoldvisOpen] = useState(false);
 
   const cards: CardMeta[] = [
     { id: 'cement-price', title: '水泥价格指数CEMPI', updatedAt: '2026-03-10', updateSchedule: '每周一 10:10', fullWidth: true },
@@ -49,6 +51,7 @@ function App() {
         subtitle="猪价 · 水泥 · 能繁母猪 · 传奇生物 · 豆粕 · 锂矿"
         recentUpdates={recentUpdates}
         onCalendarClick={() => setIsCalendarOpen(true)}
+        onHoldvisClick={() => setIsHoldvisOpen(true)}
       />
       <Dashboard>
         <div className="xl:col-span-5 grid grid-cols-1 gap-8">
@@ -71,6 +74,7 @@ function App() {
         <SectionToc items={tocItems} />
       </Dashboard>
       <Calendar isOpen={isCalendarOpen} onClose={() => setIsCalendarOpen(false)} />
+      <HoldvisModal isOpen={isHoldvisOpen} onClose={() => setIsHoldvisOpen(false)} />
     </>
   );
 }
