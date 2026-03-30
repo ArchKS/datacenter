@@ -423,5 +423,22 @@
       "saltLake": null,
       "recycling": null
     }
+  },
+  {
+    "date": "03-27",
+    "totalInventory": 99000,
+    "inventory": {
+      "upstream": 17000,
+      "downstream": 46000,
+      "other": 36000
+    },
+    "destocking": -127,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
   }
 ]
