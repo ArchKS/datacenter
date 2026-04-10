@@ -1251,6 +1251,8 @@ def generate_html():
     
     with open('portfolio_visualization.html', 'w', encoding='utf-8') as f:
         f.write(full_html)
+    with open('../public/holdvis/portfolio_visualization.html', 'w', encoding='utf-8') as f:
+        f.write(full_html)
     print("Successfully generated portfolio_visualization.html")
 
 if __name__ == "__main__":
