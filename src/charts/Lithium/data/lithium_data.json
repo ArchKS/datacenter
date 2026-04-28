@@ -493,6 +493,70 @@
     }
   },
   {
+    "date": "2025-12-18",
+    "totalInventory": 110425,
+    "inventory": {"upstream": 18090, "downstream": 41485, "other": 50850},
+    "destocking": 1044,
+    "totalProduction": 22045,
+    "production": {"lithiumSpodumene": 13804, "lithiumLepidolite": 2826, "saltLake": 3095, "recycling": 2320}
+  },
+  {
+    "date": "2025-12-25",
+    "totalInventory": 109773,
+    "inventory": {"upstream": 17851, "downstream": 39892, "other": 52030},
+    "destocking": 652,
+    "totalProduction": 22161,
+    "production": {"lithiumSpodumene": 13864, "lithiumLepidolite": 2866, "saltLake": 3075, "recycling": 2356}
+  },
+  {
+    "date": "2025-12-31",
+    "totalInventory": 109605,
+    "inventory": {"upstream": 17667, "downstream": 38998, "other": 52940},
+    "destocking": 168,
+    "totalProduction": 22420,
+    "production": {"lithiumSpodumene": 13924, "lithiumLepidolite": 2936, "saltLake": 3145, "recycling": 2415}
+  },
+  {
+    "date": "2026-01-08",
+    "totalInventory": 109942,
+    "inventory": {"upstream": 18382, "downstream": 36540, "other": 55020},
+    "destocking": -337,
+    "totalProduction": 22535,
+    "production": {"lithiumSpodumene": 13959, "lithiumLepidolite": 2956, "saltLake": 3185, "recycling": 2435}
+  },
+  {
+    "date": "2026-01-15",
+    "totalInventory": 109679,
+    "inventory": {"upstream": 19727, "downstream": 35652, "other": 54300},
+    "destocking": 263,
+    "totalProduction": 22605,
+    "production": {"lithiumSpodumene": 14124, "lithiumLepidolite": 2936, "saltLake": 3145, "recycling": 2400}
+  },
+  {
+    "date": "2026-01-22",
+    "totalInventory": 108896,
+    "inventory": {"upstream": 19834, "downstream": 37592, "other": 51470},
+    "destocking": 783,
+    "totalProduction": 22217,
+    "production": {"lithiumSpodumene": 13914, "lithiumLepidolite": 2882, "saltLake": 3115, "recycling": 2306}
+  },
+  {
+    "date": "2026-02-05",
+    "totalInventory": 105463,
+    "inventory": {"upstream": 18356, "downstream": 43657, "other": 43450},
+    "destocking": 2019,
+    "totalProduction": 20744,
+    "production": {"lithiumSpodumene": 12454, "lithiumLepidolite": 2922, "saltLake": 3130, "recycling": 2238}
+  },
+  {
+    "date": "2026-02-12",
+    "totalInventory": 102932,
+    "inventory": {"upstream": 16920, "downstream": 44492, "other": 41520},
+    "destocking": 2531,
+    "totalProduction": 20184,
+    "production": {"lithiumSpodumene": 12024, "lithiumLepidolite": 2962, "saltLake": 3040, "recycling": 2158}
+  },
+  {
   "date": "2026-04-24",
   "totalInventory": 103470,
   "inventory": {
