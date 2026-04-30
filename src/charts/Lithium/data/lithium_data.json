@@ -1,6 +1,7 @@
 [
+
   {
-    "date": "09-18",
+    "date": "2025-09-18",
     "totalInventory": 137531,
     "inventory": {
       "upstream": 34456,
@@ -17,7 +18,7 @@
     }
   },
   {
-    "date": "09-25",
+    "date": "2025-09-25",
     "totalInventory": 136825,
     "inventory": {
       "upstream": 33492,
@@ -34,7 +35,7 @@
     }
   },
   {
-    "date": "10-10",
+    "date": "2025-10-10",
     "totalInventory": 134801,
     "inventory": {
       "upstream": 34747,
@@ -51,7 +52,7 @@
     }
   },
   {
-    "date": "10-17",
+    "date": "2025-10-17",
     "totalInventory": 132658,
     "inventory": {
       "upstream": 34283,
@@ -68,7 +69,7 @@
     }
   },
   {
-    "date": "10-24",
+    "date": "2025-10-24",
     "totalInventory": 130366,
     "inventory": {
       "upstream": 33681,
@@ -85,7 +86,7 @@
     }
   },
   {
-    "date": "10-31",
+    "date": "2025-10-31",
     "totalInventory": 127358,
     "inventory": {
       "upstream": 32051,
@@ -102,7 +103,7 @@
     }
   },
   {
-    "date": "11-07",
+    "date": "2025-11-07",
     "totalInventory": 123953,
     "inventory": {
       "upstream": 30715,
@@ -119,7 +120,7 @@
     }
   },
   {
-    "date": "11-14",
+    "date": "2025-11-14",
     "totalInventory": 120472,
     "inventory": {
       "upstream": 28270,
@@ -136,7 +137,7 @@
     }
   },
   {
-    "date": "11-21",
+    "date": "2025-11-21",
     "totalInventory": 118420,
     "inventory": {
       "upstream": 26104,
@@ -153,7 +154,7 @@
     }
   },
   {
-    "date": "11-28",
+    "date": "2025-11-28",
     "totalInventory": 115968,
     "inventory": {
       "upstream": 24324,
@@ -170,7 +171,7 @@
     }
   },
   {
-    "date": "12-05",
+    "date": "2025-12-05",
     "totalInventory": 113602,
     "inventory": {
       "upstream": 20767,
@@ -187,7 +188,7 @@
     }
   },
   {
-    "date": "12-12",
+    "date": "2025-12-12",
     "totalInventory": 111469,
     "inventory": {
       "upstream": 19161,
@@ -204,7 +205,7 @@
     }
   },
   {
-    "date": "12-19",
+    "date": "2025-12-19",
     "totalInventory": 110000,
     "inventory": {
       "upstream": null,
@@ -221,7 +222,7 @@
     }
   },
   {
-    "date": "12-26",
+    "date": "2025-12-26",
     "totalInventory": 108000,
     "inventory": {
       "upstream": null,
@@ -236,9 +237,8 @@
       "saltLake": null,
       "recycling": null
     }
-  },
-  {
-    "date": "01-02",
+  },  {
+    "date": "2026-01-02",
     "totalInventory": 108247,
     "inventory": {
       "upstream": null,
@@ -255,7 +255,7 @@
     }
   },
   {
-    "date": "01-16",
+    "date": "2026-01-16",
     "totalInventory": 109700,
     "inventory": {
       "upstream": null,
@@ -272,7 +272,7 @@
     }
   },
   {
-    "date": "01-23",
+    "date": "2026-01-23",
     "totalInventory": 108900,
     "inventory": {
       "upstream": 19800,
@@ -289,7 +289,7 @@
     }
   },
   {
-    "date": "01-29",
+    "date": "2026-01-29",
     "totalInventory": 107500,
     "inventory": {
       "upstream": 19000,
@@ -306,7 +306,7 @@
     }
   },
   {
-    "date": "02-05",
+    "date": "2026-02-05",
     "totalInventory": 105200,
     "inventory": {
       "upstream": null,
@@ -323,7 +323,7 @@
     }
   },
   {
-    "date": "02-12",
+    "date": "2026-02-12",
     "totalInventory": 102700,
     "inventory": {
       "upstream": null,
@@ -340,7 +340,7 @@
     }
   },
   {
-    "date": "02-19",
+    "date": "2026-02-19",
     "totalInventory": 101200,
     "inventory": {
       "upstream": null,
@@ -357,7 +357,7 @@
     }
   },
   {
-    "date": "02-26",
+    "date": "2026-02-26",
     "totalInventory": 99000,
     "inventory": {
       "upstream": 18000,
@@ -374,7 +374,7 @@
     }
   },
   {
-    "date": "03-05",
+    "date": "2026-03-05",
     "totalInventory": 99373,
     "inventory": {
       "upstream": 17476,
@@ -391,7 +391,7 @@
     }
   },
   {
-    "date": "03-12",
+    "date": "2026-03-12",
     "totalInventory": 98958,
     "inventory": {
       "upstream": 16291,
@@ -408,7 +408,7 @@
     }
   },
   {
-    "date": "03-20",
+    "date": "2026-03-20",
     "totalInventory": 98873,
     "inventory": {
       "upstream": 16608,
@@ -425,7 +425,7 @@
     }
   },
   {
-    "date": "03-27",
+    "date": "2026-03-27",
     "totalInventory": 99000,
     "inventory": {
       "upstream": 17000,
@@ -442,7 +442,7 @@
     }
   },
   {
-    "date": "04-03",
+    "date": "2026-04-03",
     "totalInventory": 99489,
     "inventory": {
       "upstream": 17332,
@@ -459,7 +459,7 @@
     }
   },
   {
-    "date": "04-10",
+    "date": "2026-04-10",
     "totalInventory": 100300,
     "inventory": {
       "upstream": null,
@@ -474,5 +474,104 @@
       "saltLake": null,
       "recycling": null
     }
+  },
+  {
+    "date": "2026-04-17",
+    "totalInventory": 101985,
+    "inventory": {
+      "upstream": 18826,
+      "downstream": 45969,
+      "other": 37190
+    },
+    "destocking": -1685,
+    "totalProduction": null,
+    "production": {
+      "lithiumSpodumene": null,
+      "lithiumLepidolite": null,
+      "saltLake": null,
+      "recycling": null
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "totalInventory": 110425,
+    "inventory": {"upstream": 18090, "downstream": 41485, "other": 50850},
+    "destocking": 1044,
+    "totalProduction": 22045,
+    "production": {"lithiumSpodumene": 13804, "lithiumLepidolite": 2826, "saltLake": 3095, "recycling": 2320}
+  },
+  {
+    "date": "2025-12-25",
+    "totalInventory": 109773,
+    "inventory": {"upstream": 17851, "downstream": 39892, "other": 52030},
+    "destocking": 652,
+    "totalProduction": 22161,
+    "production": {"lithiumSpodumene": 13864, "lithiumLepidolite": 2866, "saltLake": 3075, "recycling": 2356}
+  },
+  {
+    "date": "2025-12-31",
+    "totalInventory": 109605,
+    "inventory": {"upstream": 17667, "downstream": 38998, "other": 52940},
+    "destocking": 168,
+    "totalProduction": 22420,
+    "production": {"lithiumSpodumene": 13924, "lithiumLepidolite": 2936, "saltLake": 3145, "recycling": 2415}
+  },
+  {
+    "date": "2026-01-08",
+    "totalInventory": 109942,
+    "inventory": {"upstream": 18382, "downstream": 36540, "other": 55020},
+    "destocking": -337,
+    "totalProduction": 22535,
+    "production": {"lithiumSpodumene": 13959, "lithiumLepidolite": 2956, "saltLake": 3185, "recycling": 2435}
+  },
+  {
+    "date": "2026-01-15",
+    "totalInventory": 109679,
+    "inventory": {"upstream": 19727, "downstream": 35652, "other": 54300},
+    "destocking": 263,
+    "totalProduction": 22605,
+    "production": {"lithiumSpodumene": 14124, "lithiumLepidolite": 2936, "saltLake": 3145, "recycling": 2400}
+  },
+  {
+    "date": "2026-01-22",
+    "totalInventory": 108896,
+    "inventory": {"upstream": 19834, "downstream": 37592, "other": 51470},
+    "destocking": 783,
+    "totalProduction": 22217,
+    "production": {"lithiumSpodumene": 13914, "lithiumLepidolite": 2882, "saltLake": 3115, "recycling": 2306}
+  },
+  {
+    "date": "2026-02-05",
+    "totalInventory": 105463,
+    "inventory": {"upstream": 18356, "downstream": 43657, "other": 43450},
+    "destocking": 2019,
+    "totalProduction": 20744,
+    "production": {"lithiumSpodumene": 12454, "lithiumLepidolite": 2922, "saltLake": 3130, "recycling": 2238}
+  },
+  {
+    "date": "2026-02-12",
+    "totalInventory": 102932,
+    "inventory": {"upstream": 16920, "downstream": 44492, "other": 41520},
+    "destocking": 2531,
+    "totalProduction": 20184,
+    "production": {"lithiumSpodumene": 12024, "lithiumLepidolite": 2962, "saltLake": 3040, "recycling": 2158}
+  },
+  {
+  "date": "2026-04-24",
+  "totalInventory": 103470,
+  "inventory": {
+    "upstream": 18363,
+    "downstream": 44497,
+    "other": 40610
+  },
+  "destocking": -656,
+  "totalProduction": 25947,
+  "production": {
+    "lithiumSpodumene": 15374,
+    "lithiumLepidolite": 3317,
+    "saltLake": 4365,
+    "recycling": 2891
   }
+}
+
 ]

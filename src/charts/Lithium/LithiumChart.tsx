@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
 import * as echarts from 'echarts';
 import lithiumData from './data/lithium_data.json';
+import dayjs, { Dayjs } from 'dayjs';
 
 interface LithiumDataPoint {
   date: string;
@@ -31,13 +32,15 @@ const tabs = [
 
 export const LithiumChart: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('inventory');
-  const data = lithiumData as LithiumDataPoint[];
+  // @ts-ignore
+  const data = lithiumData.sort((a,b)=> dayjs(b.date).isBefore(a.date)) as LithiumDataPoint[];
 
   // Calculate growth rates
   const calculateGrowthRate = (current: number | null, previous: number | null): number | null => {
     if (!current || !previous || previous === 0) return null;
     return parseFloat(((current - previous) / previous * 100).toFixed(2));
   };
+
 
   // Chart 1: Total Inventory Trend
   const inventoryOption = useMemo(() => {
@@ -120,6 +123,9 @@ export const LithiumChart: React.FC = () => {
     const upstreamGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.upstream, structureData[i - 1]?.inventory.upstream));
     const downstreamGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.downstream, structureData[i - 1]?.inventory.downstream));
     const otherGrowth = structureData.map((d, i) => calculateGrowthRate(d.inventory.other, structureData[i - 1]?.inventory.other));
+
+
+    console.log('inventoryOption',inventoryOption);
 
     return {
       tooltip: {
@@ -488,8 +494,8 @@ export const LithiumChart: React.FC = () => {
 
           const dateIndex = productionData.findIndex(d => d.date === params[0].name);
           if (dateIndex > 0) {
-            const current = totalProduction[dateIndex];
-            const previous = totalProduction[dateIndex - 1];
+            const current = totalProduction[dateIndex] || 0;
+            const previous = totalProduction[dateIndex - 1] || 0;
             const change = current - previous;
             const changeRate = ((change / previous) * 100).toFixed(2);
             const color = change >= 0 ? '#22C55E' : '#FF3B30';
