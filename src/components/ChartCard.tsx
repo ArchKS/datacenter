@@ -22,10 +22,10 @@ export const ChartCard: React.FC<ChartCardProps> = ({ title, updatedAt, updateSc
         <div className="min-w-0">
           <h2 className="text-[22px] md:text-[24px] font-semibold tracking-[-0.02em] text-[#111827]">{title}</h2>
         </div>
-        {(updateSchedule || updatedAt) ? (
+        {(updatedAt) ? (
           <span className="text-xs md:text-sm text-[#8b95a7] whitespace-nowrap">
-            {updateSchedule ? `${updateSchedule}更新` : ''}
-            {updateSchedule && updatedAt ? '  ·  ' : ''}
+            {/* {updateSchedule ? `${updateSchedule}更新` : ''} */}
+            {/* {updateSchedule && updatedAt ? '  ·  ' : ''} */}
             {updatedAt ? `最近更新：${updatedAt}` : ''}
           </span>
         ) : null}

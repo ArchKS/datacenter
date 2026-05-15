@@ -32,8 +32,9 @@ const tabs = [
 
 export const LithiumChart: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('inventory');
-  // @ts-ignore
-  const data = lithiumData.sort((a,b)=> dayjs(b.date).isBefore(a.date)) as LithiumDataPoint[];
+  const data = useMemo(() => 
+    [...lithiumData].sort((a, b) => dayjs(a.date).valueOf() - dayjs(b.date).valueOf()) as LithiumDataPoint[]
+  , []);
 
   // Calculate growth rates
   const calculateGrowthRate = (current: number | null, previous: number | null): number | null => {
@@ -154,7 +155,27 @@ export const LithiumChart: React.FC = () => {
         top: 10,
         textStyle: { fontSize: 12, color: '#1d1d1f' }
       },
-      grid: { left: '5%', right: '8%', bottom: '3%', containLabel: true },
+      grid: { left: '5%', right: '8%', bottom: '15%', containLabel: true },
+      dataZoom: [
+        {
+          type: 'inside',
+          start: 0,
+          end: 100
+        },
+        {
+          type: 'slider',
+          start: 0,
+          end: 100,
+          bottom: 0,
+          height: 20,
+          borderColor: 'transparent',
+          backgroundColor: '#f4f4f7',
+          fillerColor: 'rgba(34, 197, 94, 0.1)',
+          handleStyle: {
+            color: '#22C55E'
+          }
+        }
+      ],
       xAxis: {
         type: 'category',
         data: dates,
